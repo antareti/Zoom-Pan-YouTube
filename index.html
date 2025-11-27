@@ -1097,13 +1097,7 @@
     footer a {
       color: var(--muted);
     }
-  
-#robotCore.talking #robotImage {
-  filter: drop-shadow(0 0 25px rgba(0,255,255,0.85)) brightness(1.3);
-  transform: scale(1.03);
-}
-
-</style>
+  </style>
 </head>
 <body>
   <div class="page">
@@ -1250,29 +1244,10 @@
         <div class="robot-body">
           <div class="robot-visual-wrapper">
             <div class="robot-orbit"></div>
-            <div class="robot-core" id="robotCore" style="
-  width: 220px;
-  height: auto;
-  background: none;
-  box-shadow: none;
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: visible;
-">
-  <img 
-    src="robot.png"
-    alt="Flex Zoom Robot"
-    style="
-      width: 220px;
-      height: auto;
-      filter: drop-shadow(0 0 25px rgba(0,255,255,0.45));
-      transition: 0.3s ease;
-    "
-    id="robotImage"
-  >
-</div>
+            <div class="robot-core" id="robotCore">
+              <div class="robot-face">
+                <div class="robot-antenna">
+                  <div class="robot-antenna-dot"></div>
                   <div class="robot-antenna-line"></div>
                 </div>
                 <div class="robot-eyes-row">
